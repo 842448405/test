@@ -1,0 +1,256 @@
+{
+	"userLinks":{
+		"userLinksUL":{
+			"userLinksLI":["我的订单","地址管理","我的发票资质","我的企业资料"]
+		}
+	},
+	"breadcrumbs":{
+		"breadcrumbsContent":{
+			"crumb":["主页",">","商务专区"]
+		}
+	},
+	"slider":{
+		"swiperwrapper":{
+			"swiperslide":["img/SmbHomePage-React-img-110-jpg.jpg","img/SmbHomePage-React-img-109-jpg.jpg","img/SmbHomePage-React-img-101-jpg.jpg","img/SmbHomePage-React-img-102-jpg.jpg","img/SmbHomePage-React-img-103-jpg.jpg","img/SmbHomePage-React-img-104-jpg.jpg","img/SmbHomePage-React-img-107-jpg.jpg","img/SmbHomePage-React-img-108-jpg.jpg","img/SmbHomePage-React-img-106-jpg.jpg","img/SmbHomePage-React-img-110-jpg.jpg"]
+		}
+	},
+	"images":["../images/lunbo1.jpg","../images/lunbo2.jpg","../images/lunbo3.jpg","../images/lunbo4.jpg","../images/lunbo5.jpg"],
+	
+	"info":{
+		"welcome":{
+			"texts":["欢迎来到商务专区!","使用Microsoft账户登录并验证公司信息升级为商务会员 , 享更优惠价格及更多专属特权。"]
+		}		
+	},
+	"listt":{
+			"lia1":{
+				"iconWrapper":{
+					"icon":"icon-tubiao-"					
+				},
+				"content":{	
+					"spana":["专属价格","商务批量采购享专属价格"]
+				}
+			}
+	},
+	"listta":{
+			"lia1":{
+				"iconWrapper":{
+					"icon":"icon-xiaozhu"					
+				},
+				"content":{	
+					"spana":["整合方案","提供前瞻性整合解决方案"]
+				}
+			}
+	},
+	"listtb":{
+			"lia1":{
+				"iconWrapper":{
+					"icon":"icon-huoche"					
+				},
+				"content":{	
+					"spana":["免费送货","全国范围内免费送货服务"]
+				}
+			}
+	},
+	"listtc":{
+			"lia1":{
+				"iconWrapper":{
+					"icon":"icon-phone"					
+				},
+				"content":{	
+					"spana":["售后无忧","无忧退换货及全天候服务"]
+				}
+			}
+	},
+	"tel":{
+		"iconWrappera":{
+			"phone":"icon-phone"
+		}
+	},
+	"content":{
+			"span":["商务购买与服务热线"],
+			"a":["400-805-6783"]
+	},
+		"items":{
+			"bannerImg":"img/SmbHomePage-React-side-img-001-jpg.png",
+			"bannerh4":"惊艳的屏幕，惊叹的便携，预装Windows 10专业版系统",
+			"item":{
+				"item1":{
+					"img":"img/SmbHomePage-React-img-011-jpg.png",
+					"h3":"带LTE增强版的Surface Go",
+					"h4":"英特尔 4415Y/8GB/128GB/带 LTE 增强版 ",
+					"del":"品牌建议售价：5,054.00",
+					"bPrice":"商务采购价：5,054.00",
+					"button":"查看详情"
+				},
+				"item2":{
+					"img":"img/SmbHomePage-React-img-012-jpg.png",
+					"h3":"微软 Surface Pro 6 商务客户专供",
+					"h4":"酷睿 i5/8GB/128GB/亮铂金 ",
+					"del":"品牌建议售价：7,002.00",
+					"bPrice":"商务采购价：6,372.00",
+					"button":"查看详情"
+				},
+				"item3":{
+					"img":"img/SmbHomePage-React-img-013-jpg.png",
+					"h3":"带LTE增强版的 Surface Pro 商务客户专供（第五代）",
+					"h4":"酷睿 i5/4GB/128GB/亮铂金/带 LTE 增强版 ",
+					"del":"品牌建议售价：8,294.00",
+					"bPrice":"商务采购价：7,050.00",
+					"button":"查看详情"
+				},
+				"item4":{
+					"img":"img/SmbHomePage-React-img-014-jpg.png",
+					"h3":"微软 Surface Book 2 商务客户专供",
+					"h4":"13.5英寸/酷睿 i5/8GB/256GB ",
+					"del":"品牌建议售价：11,964.00",
+					"bPrice":"商务采购价：9,691.00",
+					"button":"查看详情"
+				},
+				"item5":{
+					"img":"img/SmbHomePage-React-img-015-jpg.png",
+					"h3":"微软 Surface Laptop 2 商务客户专供",
+					"h4":"酷睿 i5/8GB/128GB/亮铂金 ",
+					"del":"品牌建议售价：8,756.00",
+					"bPrice":"商务采购价：8,756.00",
+					"button":"查看详情"
+				},
+				"item6":{
+					"img":"img/SmbHomePage-React-img-016-jpg.png",
+					"h3":"带LTE增强版的 Surface Pro 商务客户专供（第五代）",
+					"h4":"酷睿 i5/8GB/256GB/亮铂金/带 LTE 增强版 ",
+					"del":"品牌建议售价：10,612.00",
+					"bPrice":"商务采购价：8,690.00",
+					"button":"查看详情"
+				},
+				"item7":{
+					"img":"img/SmbHomePage-React-img-017-jpg.png",
+					"h3":"微软认证翻新 Surface Pro 4 专业版",
+					"h4":"酷睿 i5/4GB/128GB/银色（无键盘含笔） ",
+					"del":"品牌建议售价：5,048.00",
+					"bPrice":"商务采购价：5,048.00",
+					"button":"查看详情"
+				}
+			}
+		},		
+       "items1":{
+		   "bannerh4":"简化协作，随时随地，在任何设备上协同工作",
+       	   "bannerImg":"img/SmbHomePage-React-side-img-002-jpg.png",
+       	   "item":{
+       	        "item1":{
+       	        	"img":"img/SmbHomePage-React-img-021-jpg.png",
+					"h3":"Office 365 企业套餐",
+					"del":"品牌建议售价：624.00",
+					"bPrice":"商务采购价：624.00",
+					"button":"查看详情"
+       	        },
+       	        "item2":{
+       	        	"img":"img/SmbHomePage-React-img-022-jpg.png",
+					"h3":"Office 小型企业版 2019 激活密钥",
+					"del":"品牌建议售价：1,998.00",
+					"bPrice":"商务采购价：1,998.00",
+					"button":"查看详情"
+       	        },
+       	        "item3":{
+       	        	"img":"img/SmbHomePage-React-img-023-jpg.png",
+					"h3":"Office 专业版 2019 激活密钥",
+					"del":"品牌建议售价：5,298.00",
+					"bPrice":"商务采购价：5,298.00",
+					"button":"查看详情"
+       	        }			
+       	   }
+       },
+		"items2":{
+		   "bannerh4":"为您带来观察世界的全新方式",
+       	   "bannerImg":"img/SmbHomePage-React-side-img-006-jpg.png",
+       	   "item":{
+       	        "item1":{
+       	        	"img":"img/SmbHomePage-React-img-061-jpg.png",
+					"h3":"Microsoft HoloLens",
+					"del":"品牌建议售价：23,488.00",
+					"bPrice":"商务采购价：23,488.00",
+					"button":"查看详情"
+       	        },
+       	        "item2":{
+       	        	"img":"img/SmbHomePage-062.png",
+					"h3":"Azure Kinect DK",
+					"del":"品牌建议售价：2,988.00",
+					"bPrice":"商务采购价：2,988.00",
+					"button":"查看详情"
+       	        }	
+       	   }
+       },
+       "items3":{
+		   "bannerh4":"一站式、便捷的采购方式，即买即用",
+       	   "bannerImg":"img/SmbHomePage-React-side-img-005-jpg.png",
+       	   "item":{
+       	        "item1":{
+       	        	"img":"img/SmbHomePage-React-img-041-jpg.png",
+					"h3":"Windows 10 专业版（仅限企业购买）",
+					"h4":"首次购买限5个许可起订，仅限企业购买。  ",
+					"del":"品牌建议售价：1,817.00",
+					"bPrice":"商务采购价：1,726.00",
+					"button":"查看详情"
+       	        },
+       	        "item2":{
+       	        	"img":"img/SmbHomePage-React-img-042-jpg.png",
+					"h3":"Surface 延期硬件服务计划及商业 Microsoft Complete Surface Pro 延期硬件服务计划 - 1年延保",
+					"h4":"为您的设备提供延保服务或意外保护 ",
+					"del":"品牌建议售价：399.00",
+					"bPrice":"商务采购价：359.00",
+					"button":"查看详情"
+       	        }	
+       	   }
+       },
+        "items4":{
+		   "bannerh4":"为您的设备增添灵活多变的形态，尽情施展潜能",
+       	   "bannerImg":"img/SmbHomePage-React-side-img-003-jpg.png",
+       	   "item":{
+       	        "item1":{
+       	        	"img":"img/SmbHomePage-React-img-031-jpg.png",
+					"h3":"键鼠套餐",
+					"h4":"精心打造，如同 Surface 一般品质卓越  ",
+					"del":"品牌建议售价：1,146.00",
+					"bPrice":"商务采购价：1,058.00",
+					"button":"查看详情"
+       	        },
+       	        "item2":{
+       	        	"img":"img/SmbHomePage-React-img-032-jpg.png",
+					"h3":"Surface Arc 商务版",
+					"h4":"纤薄、轻巧、便于携带，您的Surface 好伴侣  ",
+					"del":"品牌建议售价：616.00",
+					"bPrice":"商务采购价：600.00",
+					"button":"查看详情"
+       	        },
+       	        "item3":{
+       	        	"img":"img/SmbHomePage-React-img-033-jpg.png",
+					"h3":"Surface Type Cover",
+					"h4":"轻薄有型，LED 背光，为您带来全面的键盘体验。   ",
+					"del":"品牌建议售价：954.00",
+					"bPrice":"商务采购价：897.00",
+					"button":"查看详情"
+       	        }		
+       	   }
+       },
+       "items5":{
+		   "bannerh4":"年会及节日礼品的新选择，馈赠亲友的不二之选",
+       	   "bannerImg":"img/SmbHomePage-React-side-img-004-jpg.png",
+       	   "item":{
+       	        "item1":{
+       	        	"img":"img/SmbHomePage-React-img-051-jpg.png",
+					"h3":"微软无线便携鼠标 1850",
+					"h4":"紧凑，契合手形，小巧便携，左右手操作皆宜。  ",
+					"del":"品牌建议售价：96.00",
+					"bPrice":"商务采购价：79.00",
+					"button":"查看详情"
+       	        },
+       	        "item2":{
+       	        	"img":"img/SmbHomePage-React-img-052-jpg.png",
+					"h3":"微软无线便携蓝牙鼠标 3600 典雅黑",
+					"h4":"身材小巧性能强大，带给您更满意的鼠标使用体验 ",
+					"del":"品牌建议售价：290.00",
+					"bPrice":"商务采购价：199.00",
+					"button":"查看详情"
+       	        }
+       	   }
+       }			
+}

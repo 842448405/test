@@ -191,5 +191,30 @@
 			"footer_block6":["Surface Pro 6","Surface Laptop 2","Surface Studio 2","Surface Pro(第五代)","Surface Book 2","Xbox One","Office 365","Office for Mac","优惠信息","教育专区","商务专区","以旧换新"]
 		}
 	}
+},
+"msSignin":{
+	"inner":{
+		"h2":"请登录您的账户",
+		"p1":"推荐使用 Microsoft 账户登录：",
+		"a":"Microsoft 账号",
+		"p2":"您的Office，Windows 10，Hotmail，OneDrive，Windows Phone，Xbox LIVE或Outlook.com 等账户，均可作为Microsoft账户登录本商城。没有 Microsoft 账户？",
+		"a2":"立即注册",
+		"p3":"手机号码登录：",
+		"sj":"icon-shouji",
+		"p4":"第三方账户登录：",
+		"wx":"icon-weixin1",
+		"zfb":"icon-zhifubao"
+	}
+},
+"components":{
+	"contentblock":{
+		"h2":"订单跟踪"
+	}
+},
+"forminformationa":{
+	"p":{
+			"p1":"如果是游客通道购买商品，请在左面输入购买商品时留下的电子邮件地址，收件人姓名和订单号查询 订单状态。",
+			"p2":"如果是通过支付宝或者Microsoft账户登录购买商品，登录后即可在本页面查询。"
+	}
 }
 }

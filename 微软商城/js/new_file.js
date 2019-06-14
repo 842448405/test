@@ -48,7 +48,7 @@ $(function() {
 				})
 			});
 
-			var loginBtn = $("<a href='#'></a>").addClass("gun").html("登录").appendTo(".userFns");
+			var loginBtn = $("<a href='denglu.html'></a>").addClass("gun").html("登录").appendTo(".userFns");
 			$(loginBtn).mouseenter(function() {
 				$(loginBtn).css("background", "#006CC2")
 			})

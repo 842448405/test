@@ -41,7 +41,7 @@ $(function() {
 				if(i === 0) {
 					box = $('<li></li>').append($('<a class="account" href="#">' + t + '</a>'))
 				} else if(i === 5) {
-					box = $("<li style='margin:20px 0 10px'></li>").append($('<a  class="denglv" href="#"></a>').text(t))
+					box = $("<li style='margin:20px 0 10px'></li>").append($('<a  class="denglv" href="denglu.html"></a>').text(t))
 				} else {
 					box = $('<li></li>').append($('<a class="underline" href="#"></a>').text(t))
 				}
@@ -59,7 +59,7 @@ $(function() {
 					});
 					$(li).append(ul)
 				} else {
-					box = $('<a class="bluea" href="#"></a>').html(t)
+					box = $('<a class="bluea" href="微软商城/index2.html"></a>').html(t)
 				}
 				$(li.append(box)).appendTo($('.nav2_list'))
 			});
@@ -268,6 +268,72 @@ $(function() {
 				$(".footer_block:eq(6)").append(footer_blaspan6, links6, );
 			})
 			//热门应用列表*
+			
+			//登陆
+			var mainContainers = $("<div></div>").addClass("mainContainer").appendTo(".msSignin")
+		    var inner = $("<div></div>").addClass("inner").appendTo(mainContainers)
+		    $.each(data.msSignin, function(a, b) {
+					var h2 = $("<h2></h2>").html(b.h2).addClass("innerh2").appendTo(inner)
+				});
+		    var con = $("<div></div>").addClass("con").appendTo(inner)
+		    
+			var msAccount = $("<div></div>").addClass("msAccount").appendTo(con)
+			$.each(data.msSignin, function(a, b) {
+					var p1 = $("<p></p>").addClass("p1").html(b.p1).appendTo(msAccount)
+					var a = $("<a href='#'></a>").addClass("btn").html(b.a).appendTo(msAccount)
+					var p2 = $("<p></p>").addClass("p2").html(b.p2).appendTo(msAccount)
+					var a2 = $("<a href='#'></a>").addClass("a2").html(b.a2).appendTo(p2)
+			});
+			
+			var otherAccout = $("<div></div>").addClass("otherAccout").appendTo(con)
+			$.each(data.msSignin, function(a, b) {
+					var p3 = $("<p></p>").html(b.p3).addClass("p3").appendTo(otherAccout)
+					var otherss = $("<div></div>").addClass("otherss").appendTo(otherAccout)
+					var sj = $("<a></a>").prop("class","iconfont icon-shouji").addClass("sj").appendTo(otherss)
+					var p4 = $("<p></p>").html(b.p4).addClass("p4").appendTo(otherAccout)
+					var otherss = $("<div></div>").addClass("otherss").appendTo(otherAccout)
+					var wx = $("<a></a>").prop("class","iconfont icon-weixin1").addClass("wx").appendTo(otherss)				
+					var zfb = $("<a></a>").prop("class","iconfont icon-zhifubao").addClass("zfb").appendTo(otherss)				
+			});
+			
+			var contentblock = $("<div></div>").addClass("contentblock").appendTo(".components")
+			$.each(data.components, function(a, b) {
+					var h2 = $("<h2></h2>").html(b.h2).addClass("componentsh2").appendTo(contentblock)		
+			});
+			var ordertrackingform = $("<div></div>").addClass("ordertrackingform").appendTo(contentblock)
+			var formcontenta = $("<div></div>").addClass("formcontenta").appendTo(ordertrackingform)
+			var forminformationa = $("<div></div>").addClass("forminformationa").appendTo(ordertrackingform)
+
+            var row = $("<div></div>").addClass("row").appendTo(formcontenta)
+            var label = $("<label></label>").addClass("label").appendTo(row).html("*")  
+            var labelspan = $("<span></span>").html("接收电子邮件 :").addClass("labelspan").appendTo(label) 
+            var inputtype = $("<div></div>").addClass("inputtype").appendTo(row)
+            var input1 = $("<input />").addClass("input1").appendTo(inputtype)
+            
+            var row = $("<div></div>").addClass("row").appendTo(formcontenta)
+            var label = $("<label></label>").addClass("label").appendTo(row).html("*")      
+            var labelspan = $("<span></span>").html("收件人姓名 :").addClass("labelspan").appendTo(label) 
+            var inputtype = $("<div></div>").addClass("inputtype").appendTo(row)         
+            var input1 = $("<input />").addClass("input1").appendTo(inputtype)
+            
+            var row = $("<div></div>").addClass("row").appendTo(formcontenta)
+            var label = $("<label></label>").addClass("label").appendTo(row).html("*")  
+            var labelspan = $("<span></span>").html("订单号 :").addClass("labelspan").appendTo(label) 
+            var inputtype = $("<div></div>").addClass("inputtype").appendTo(row)         
+            var input1 = $("<input />").addClass("input1").appendTo(inputtype)
+            
+            
+            var rowneed = $("<div></div>").addClass("rowneed").appendTo(formcontenta)
+            var rowneedspan1 = $("<span></span>").addClass("rowneedspan1").html("*").appendTo(rowneed)
+            var rowneedspan1 = $("<span></span>").html("需要").appendTo(rowneed)
+            
+            
+            var rowbutton = $("<div></div>").addClass("rowbutton").appendTo(formcontenta)
+            var buttona = $("<button></button>").html("查询").addClass("buttona").appendTo(rowbutton)
+            $.each(data.forminformationa, function(a, b) {
+					var p1 = $("<p></p>").html(b.p1).appendTo(forminformationa)		
+					var p2 = $("<p></p>").html(b.p2).appendTo(forminformationa)			
+			});
 		}
 	});
 	$('.login').hover(function() {

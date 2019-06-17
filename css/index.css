@@ -674,6 +674,71 @@ ul{list-style:none;}
     color: #414141;
     padding-bottom: 25px;
 }
+.storepromisefour{
+	margin-top: 45px;
+	min-width: 940px;
+}
+.contentblocks{
+	width: 940px;
+	/*height: 100%;*/
+    margin: 0 auto;
+}
+.contentblocks h2{
+	font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #001092;
+    padding: 19px 0 12px 0;
+    margin: 0 0 12px 0;
+    text-align: center;
+    border-bottom: 1px solid #b9b9b9;
+}
+.promis{
+	margin-bottom: 15px;
+}
+.rowfixedspan4{
+	width: 228px;
+    height: 164px;
+}
+.contactaa{
+	text-align: left;
+    background: #f7f7f7;
+    padding: 7px 0 6px 55px;
+}
+.contactaa p{
+	color: #104090;
+    font-family: "Segoe UI Semibold","Microsoft YaHei",Arial,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    background: url(../img/icon-sprite.png) left -100px no-repeat;
+    padding: 3px 16px 6px 34px;
+    margin: 0 0 0 15px;
+}
+.contacta{
+	text-align: left;
+    background: #f7f7f7;
+    padding: 7px 0 6px 55px;
+}
+.bottom{
+	margin-bottom: 90px;
+}
+.contacta p{
+	color: #104090;
+    font-family: "Segoe UI Semibold","Microsoft YaHei",Arial,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    background: url(../img/icon-sprite.png) left -100px no-repeat;
+    padding: 3px 16px 6px 34px;
+    margin: 0 0 0 15px;
+}
+.contacta a{
+	color: #2399D7;
+	margin-left: -17px;
+}
 .description{height:90px;color:#666;margin: 10px 0 5px;cursor: pointer}
 .sliderList{width:100%;height:372px;margin:15px 0 40px 0;}
 .listTitle{font-size:30px;line-height:60px;border-bottom:1px solid black;color:#333;}

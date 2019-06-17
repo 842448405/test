@@ -334,6 +334,33 @@ $(function() {
 					var p1 = $("<p></p>").html(b.p1).appendTo(forminformationa)		
 					var p2 = $("<p></p>").html(b.p2).appendTo(forminformationa)			
 			});
+			
+			var contentss = $("<div></div>").addClass("contentss").appendTo(".bottom")
+			var storepromisefour = $("<div></div>").addClass("storepromisefour").appendTo(contentss)
+			var contentblocks = $("<div></div>").addClass("contentblocks").appendTo(storepromisefour)
+			var h2 = $("<h2></h2>").html(data.contentss.h2).appendTo(contentblocks)
+
+			
+			var promis = $("<div></div>").addClass("promis").appendTo(contentblocks)
+			$.each(data.contentss.contentblocks, function(a, b) {
+				 var rowfixedspan4 = $("<img>").addClass("rowfixedspan4").prop("src",b.img).appendTo(promis)
+				 $("img:eq(2)").css("margin-left","9px")
+				 $("img:eq(3)").css("margin-left","9px")
+				 $("img:eq(4)").css("margin-left","9px")
+				 console.log(b.img)
+			});
+			var contactaa = $("<div></div>").addClass("contactaa").appendTo(contentblocks)
+			$.each(data.contactaa, function(a, b) {
+					var p = $("<p></p>").html(b.p).appendTo(contactaa)		
+					var p1 = $("<p></p>").html(b.p1).appendTo(contactaa)	
+					console.log(b.p)
+			});
+			var contacta = $("<div></div>").addClass("contacta").appendTo(contentblocks)
+			$.each(data.contacta, function(a, b) {
+					var p = $("<p></p>").html(b.p).appendTo(contacta)	
+					var a = $("<a href='#'></a>").html("这里").appendTo(contacta)	
+					console.log(b.p)
+			});
 		}
 	});
 	$('.login').hover(function() {

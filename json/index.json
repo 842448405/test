@@ -216,5 +216,33 @@
 			"p1":"如果是游客通道购买商品，请在左面输入购买商品时留下的电子邮件地址，收件人姓名和订单号查询 订单状态。",
 			"p2":"如果是通过支付宝或者Microsoft账户登录购买商品，登录后即可在本页面查询。"
 	}
+},
+"contentss":{
+	"h2":"微软商城 四大承诺",
+	"contentblocks":{
+		"list":{
+			"img":"images/store-promise-block-1-v2 (1).jpg"
+		},
+		"list1":{
+			"img":"images/store-promise-block-2-v2new.jpg"
+		},
+		"list2":{
+			"img":"images/store-promise-block-3-v2.jpg"
+		},
+		"list3":{
+			"img":"images/store-promise-block-4-v2.jpg"
+		}
+	}
+},
+"contactaa":{
+	"p":{
+			"p":"微软官方商城服务热线： 4008822059      微软中国技术支持热线： 4008203800",
+			"p1":"客服及产品专家"
+	}
+},
+"contacta":{
+	"p":{
+			"p":"微软官方商城企业服务热线： 4008056783 想了解更多，请点击"
+	}
 }
 }

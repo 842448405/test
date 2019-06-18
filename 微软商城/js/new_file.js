@@ -48,7 +48,7 @@ $(function() {
 				})
 			});
 
-			var loginBtn = $("<a href='denglu.html'></a>").addClass("gun").html("登录").appendTo(".userFns");
+			var loginBtn = $("<a href='../denglu.html'></a>").addClass("gun").html("登录").appendTo(".userFns");
 			$(loginBtn).mouseenter(function() {
 				$(loginBtn).css("background", "#006CC2")
 			})
@@ -58,7 +58,7 @@ $(function() {
 			var breadcrumbsContent = $("<ul></ul>").appendTo(".breadcrumbs");
 			$.each(data.breadcrumbs, function(i, t) {
 				$.each(this.crumb, function(j, c) {
-					var crumb = $("<li><a href='#'>" + c + "</a></li>").addClass("gun").addClass('crumb').appendTo(breadcrumbsContent);
+					var crumb = $("<li><a href='../index.html'>" + c + "</a></li>").addClass("gun").addClass('crumb').appendTo(breadcrumbsContent);
 					$(".crumb:eq(1)").mouseenter(function() {
 						$(".crumb:eq(1) a").css("cursor", "auto")
 					})
@@ -345,11 +345,6 @@ $(function() {
 			var copyrightspan = $("<span></span>").appendTo(copyright).html("沪ICP备12038052号-4")
 			var copyrightspan = $("<span></span>").appendTo(copyright).html("© 2017 Microsoft")
 			
-			
-			
-			$(".gun").click(function(){
-				alert("没效果")
-			})
 		}
          
 	});

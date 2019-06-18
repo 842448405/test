@@ -48,8 +48,7 @@ $(function() {
 				$(box).appendTo('.userLink ul')
 			});
 			$.each(data.nav.nav2.list, function(i, t) {
-				var li = $('<li class="nav2_list_li"></li>'),
-					box;
+				var li = $('<li class="nav2_list_li"></li>'),box;
 				if(i < 2) {
 					$(li).css('cursor', 'pointer');
 					box = $('<a class="bluea" href="#"></a>').html(t);
@@ -65,7 +64,7 @@ $(function() {
 			});
 			$('.nav2_Right>a').html(data.nav.nav2.list2[0]);
 			$('.nav2_Right>span').html(data.nav.nav2.list2[1]);
-			$('.lunbo').width((data.images.length + 1) * 1180);
+			
 
 			//*轮播图
 			$.each(data.images, function(i, t) {
@@ -86,7 +85,7 @@ $(function() {
 				i = $(this).index()
 			});
 			//轮播图*
-
+			$('.lunbo').width((data.images.length + 1) * 1180);
 			//*产品广告
 			//左列表
 			$.each(data.sideNavInner, function(i, t) {
@@ -344,11 +343,11 @@ $(function() {
 			var promis = $("<div></div>").addClass("promis").appendTo(contentblocks)
 			$.each(data.contentss.contentblocks, function(a, b) {
 				 var rowfixedspan4 = $("<img>").addClass("rowfixedspan4").prop("src",b.img).appendTo(promis)
-				 $("img:eq(2)").css("margin-left","9px")
-				 $("img:eq(3)").css("margin-left","9px")
-				 $("img:eq(4)").css("margin-left","9px")
 				 console.log(b.img)
-			});
+			}); 
+				 $(".rowfixedspan4:eq(1)").css("margin-left","9px")
+				 $(".rowfixedspan4:eq(2)").css("margin-left","9px")
+				 $(".rowfixedspan4:eq(3)").css("margin-left","9px")
 			var contactaa = $("<div></div>").addClass("contactaa").appendTo(contentblocks)
 			$.each(data.contactaa, function(a, b) {
 					var p = $("<p></p>").html(b.p).appendTo(contactaa)		
@@ -395,8 +394,7 @@ $(function() {
 		$(t).siblings().removeClass('icon-yuanxuankuang2').addClass('icon-yuanxuankuang1');
 		$(t).removeClass('icon-yuanxuankuang1').addClass('icon-yuanxuankuang2')
 	}
-	var i = 0,
-		t;
+	var i = 0,t;
 	$('.icon-Right-').click(function() {
 		$('.lunbo').stop();
 		i += 1;
@@ -408,7 +406,7 @@ $(function() {
 			'left': i * -1180
 		});
 		t = i;
-		if(t === 5) {
+		if(t === $('.lunbo').find('img').length -1) {
 			t = 0
 		}
 		var dian = $('.index').eq(t);
